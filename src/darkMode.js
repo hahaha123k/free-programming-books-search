@@ -9,7 +9,7 @@ export const themes = {
 
 export const swapMode = (theme) => {
     switch (theme) {
-      case themes.light:
+      case themes.dark:
         document.body.classList.add('dark-content');
         setTimeout(() => {
           document.getElementsByClassName('header')[0].classList.add('dark-content');
